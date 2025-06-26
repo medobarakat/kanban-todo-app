@@ -1,14 +1,23 @@
 {
   "name": "kanban-todo-app",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "A modern Kanban-style todo application built with React and Redux",
   "private": true,
   "dependencies": {
-    "@testing-library/dom": "^10.4.0",
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.3.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.16",
+    "@mui/material": "^5.14.17",
+    "@reduxjs/toolkit": "^1.9.7",
+    "@tanstack/react-query": "^4.36.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "axios": "^1.6.0",
+    "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -16,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "json-server --watch db.json --port 4000",
+    "dev": "concurrently \"npm run server\" \"npm start\""
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +46,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "homepage": ".",
+  "keywords": [
+    "react",
+    "redux",
+    "kanban",
+    "todo",
+    "task-management",
+    "drag-and-drop",
+    "material-ui"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
 }

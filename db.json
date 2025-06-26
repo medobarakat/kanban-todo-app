@@ -1,0 +1,148 @@
+{
+  "tasks": [
+    {
+      "id": "2",
+      "title": "Setup authentication",
+      "description": "Implement user login and registration",
+      "column": "review"
+    },
+    {
+      "id": "3",
+      "title": "Create API endpoints",
+      "description": "Build REST API for user management",
+      "column": "in_progress"
+    },
+    {
+      "id": "4",
+      "title": "Write unit tests",
+      "description": "Add comprehensive test coverage",
+      "column": "review"
+    },
+    {
+      "id": "5",
+      "title": "Deploy to production",
+      "description": "Setup CI/CD pipeline and deploy",
+      "column": "done"
+    },
+    {
+      "id": "6",
+      "title": "Database optimization",
+      "description": "Improve query performance",
+      "column": "review"
+    },
+    {
+      "id": "7",
+      "title": "User feedback analysis",
+      "description": "Analyze user behavior and feedback",
+      "column": "in_progress"
+    },
+    {
+      "id": "8",
+      "title": "Mobile responsiveness",
+      "description": "Ensure app works on mobile devices",
+      "column": "in_progress"
+    },
+    {
+      "id": "9",
+      "title": "Create user dashboard",
+      "description": "Build interactive user dashboard with charts",
+      "column": "in_progress"
+    },
+    {
+      "id": "10",
+      "title": "Implement search functionality",
+      "description": "Add global search across all modules",
+      "column": "backlog"
+    },
+    {
+      "id": "11",
+      "title": "Setup payment gateway",
+      "description": "Integrate Stripe payment processing",
+      "column": "backlog"
+    },
+    {
+      "id": "12",
+      "title": "Design email templates",
+      "description": "Create responsive email templates",
+      "column": "backlog"
+    },
+    {
+      "id": "13",
+      "title": "API documentation",
+      "description": "Write comprehensive API documentation",
+      "column": "in_progress"
+    },
+    {
+      "id": "14",
+      "title": "Performance optimization",
+      "description": "Optimize app performance and loading times",
+      "column": "in_progress"
+    },
+    {
+      "id": "15",
+      "title": "Error handling system",
+      "description": "Implement global error handling",
+      "column": "in_progress"
+    },
+    {
+      "id": "16",
+      "title": "User notification system",
+      "description": "Build real-time notification system",
+      "column": "in_progress"
+    },
+    {
+      "id": "17",
+      "title": "Code review process",
+      "description": "Establish code review guidelines",
+      "column": "review"
+    },
+    {
+      "id": "18",
+      "title": "Security audit",
+      "description": "Conduct comprehensive security review",
+      "column": "review"
+    },
+    {
+      "id": "19",
+      "title": "Load testing",
+      "description": "Perform load testing on critical endpoints",
+      "column": "review"
+    },
+    {
+      "id": "20",
+      "title": "User acceptance testing",
+      "description": "Coordinate UAT with stakeholders",
+      "column": "review"
+    },
+    {
+      "id": "21",
+      "title": "Analytics integration",
+      "description": "Setup Google Analytics and tracking",
+      "column": "done"
+    },
+    {
+      "id": "22",
+      "title": "SSL certificate setup",
+      "description": "Configure SSL certificates for security",
+      "column": "done"
+    },
+    {
+      "id": "23",
+      "title": "Backup system",
+      "description": "Implement automated backup system",
+      "column": "done"
+    },
+    {
+      "id": "0362",
+      "title": "new",
+      "description": "tess",
+      "column": "review"
+    },
+    {
+      "id": "9477",
+      "title": "aaaaaaaaaa",
+      "description": "a2222222222222222",
+      "column": "in_progress"
+    }
+  ]
+}
