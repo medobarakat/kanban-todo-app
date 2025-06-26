@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import { DragDropContext } from 'react-beautiful-dnd';
 import {
   Box,
@@ -45,13 +44,10 @@ const Board = () => {
     moveTask({ id: taskId, column: newColumn });
   };
 
-  // Add error boundary for drag and drop
   const handleDragStart = (start) => {
-    // Optional: Add any drag start logic here
   };
 
   const handleDragUpdate = (update) => {
-    // Optional: Add any drag update logic here
   };
 
   if (loading) {
@@ -78,7 +74,6 @@ const Board = () => {
       }}
     >
       <Container maxWidth="xl">
-        {/* Header */}
         <Box sx={{ textAlign: 'center', mb: 4 }}>
           <Typography
             variant="h3"
@@ -101,10 +96,8 @@ const Board = () => {
           </Typography>
         </Box>
 
-        {/* Search Bar */}
         <SearchBar />
 
-        {/* Error Alert */}
         {error && (
           <Alert severity="error" sx={{ mb: 3 }}>
             {error}
@@ -154,7 +147,6 @@ const Board = () => {
         )}
       </Container>
 
-      {/* Task Modal */}
       <TaskModal />
     </Box>
   );

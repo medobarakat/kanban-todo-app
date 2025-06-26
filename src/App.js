@@ -1,4 +1,3 @@
-import React from 'react';
 import { Provider } from 'react-redux';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
@@ -7,7 +6,6 @@ import { store } from './store';
 import Board from './components/Board';
 import './App.css';
 
-// Create a client
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
@@ -19,7 +17,7 @@ const queryClient = new QueryClient({
   },
 });
 
-// Create theme
+// Custom theme
 const theme = createTheme({
   palette: {
     primary: {

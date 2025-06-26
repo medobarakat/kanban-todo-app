@@ -1,7 +1,7 @@
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { useDispatch } from 'react-redux';
 import { taskApi } from '../services/api';
-import { setTasks, addTask, updateTask, deleteTask, moveTask, setLoading, setError } from '../store/taskSlice';
+import { setTasks, addTask, updateTask, deleteTask, moveTask, setError } from '../store/taskSlice';
 
 export const useTasks = () => {
   const queryClient = useQueryClient();

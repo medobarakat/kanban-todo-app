@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import  { useState, useMemo, useEffect } from 'react';
 import { Droppable } from 'react-beautiful-dnd';
 import {
   Paper,
@@ -55,7 +55,6 @@ const Column = ({ columnId }) => {
         overflow: 'hidden'
       }}
     >
-      {/* Column Header */}
       <Box
         sx={{
           p: 2,
@@ -110,7 +109,6 @@ const Column = ({ columnId }) => {
         </Button>
       </Box>
 
-      {/* Droppable Area */}
       <Droppable droppableId={columnId}>
         {(provided, snapshot) => (
           <Box
@@ -171,7 +169,6 @@ const Column = ({ columnId }) => {
         )}
       </Droppable>
 
-      {/* Pagination */}
       {totalPages > 1 && (
         <Box sx={{ p: 2, backgroundColor: 'white', borderTop: '1px solid #e0e0e0' }}>
           <Pagination
